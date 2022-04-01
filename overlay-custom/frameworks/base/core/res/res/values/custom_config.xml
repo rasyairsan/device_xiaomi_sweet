@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+   <!-- API URL to fetch PIF from -->
+   <string name="config_pifUpdateUrl" translatable="false">https://raw.githubusercontent.com/pure-soul-kk/OTA/refs/heads/sixteen/CertifiedProps/certified_build_props.json</string>
+</resources>
