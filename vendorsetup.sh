@@ -1,5 +1,5 @@
 # Commons
-git clone https://github.com/manipvlator/device_xiaomi_sm6150-common.git device/xiaomi/sm6150-common
+git clone https://github.com/manipvlator/device_xiaomi_sm6150-common.git -b lunaris device/xiaomi/sm6150-common
 git clone https://github.com/manipvlator/vendor_xiaomi_sm6150-common.git vendor/xiaomi/sm6150-common
 
 # Device (sweet)
