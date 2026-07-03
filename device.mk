@@ -20,10 +20,6 @@ PRODUCT_PACKAGES += \
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# Disable VINTF
-PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
-PRODUCT_ENFORCE_VINTF_MANIFEST := false
-
 # Audio
 PRODUCT_PACKAGES += \
     sku_sweet_audio_symlink
