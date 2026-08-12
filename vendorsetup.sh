@@ -18,6 +18,3 @@ git clone https://github.com/manipvlator/los_kernel_xiaomi_sm6150.git kernel/xia
 # Dolby
 git clone https://github.com/manipvlator/proprietary_vendor_sony_dolby.git vendor/sony/dolby
 git clone https://github.com/manipvlator/android_packages_apps_LunarisDolby.git packages/apps/LunarisDolby
-
-# GameBar
-git clone https://github.com/putraaxzy/packages_apps_GameBar packages/apps/GameBar
