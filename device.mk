@@ -108,11 +108,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
-# Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
-
-# Lunaris Add-on
--include vendor/lineage-priv/keys/keys.mk
-
+# Set SurfaceFlinger Refresh rate
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
+# Call the proprietary setup
+$(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
